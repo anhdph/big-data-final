@@ -1,0 +1,49 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260531131408
+Username: DESKTOP-GV15QAU\Admin
+RunAs User: DESKTOP-GV15QAU\Admin
+Configuration Name: 
+Machine: DESKTOP-GV15QAU (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 14756
+PSVersion: 5.1.26100.8521
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8521
+BuildVersion: 10.0.26100.8521
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is E:\UEH\big-data\big-data-final\command\deployment_environment.txt
+PS C:\Users\Admin> systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+OS Name:                       Microsoft Windows 11 Home Single Language
+OS Version:                    10.0.26200 N/A Build 26200
+PS C:\Users\Admin> java -version
+openjdk version "17.0.18" 2026-01-20
+OpenJDK Runtime Environment OpenLogic-OpenJDK (build 17.0.18+8-adhoc..jdk17u)
+OpenJDK 64-Bit Server VM OpenLogic-OpenJDK (build 17.0.18+8-adhoc..jdk17u, mixed mode, sharing)
+PS C:\Users\Admin> hadoop version
+Hadoop 3.4.3
+Source code repository https://github.com/apache/hadoop.git -r 9d50c6884666e794e45102260a4017bb31802e1b
+Compiled by stevel on 2026-02-13T14:23Z
+Compiled on platform linux-x86_64
+Compiled with protoc 3.23.4
+From source with checksum 2331238c4c2929e66645316a32a8613
+This command was run using /E:/Hadoop/hadoop-3.4.3/share/hadoop/common/hadoop-common-3.4.3.jar
+PS C:\Users\Admin> spark-submit --version
+
+PS C:\Users\Admin> python --version
+
+PS C:\Users\Admin> echo $env:JAVA_HOME
+E:\Java\openlogic-openjdk-17.0.18+8-windows-x64
+PS C:\Users\Admin> echo $env:HADOOP_HOME
+E:\Hadoop\hadoop-3.4.3
+PS C:\Users\Admin> echo $env:SPARK_HOME
+E:\Java\spark-4.1.1-bin-hadoop3
+PS C:\Users\Admin> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20260531131529
+**********************
