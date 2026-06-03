@@ -1,0 +1,36 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Admin> Get-Date
+
+Wednesday, June 3, 2026 7:25:48 PM
+
+
+PS C:\Users\Admin> whoami
+desktop-gv15qau\admin
+PS C:\Users\Admin> hdfs dfs -mkdir /data
+PS C:\Users\Admin> hdfs dfs -ls /
+Found 1 items
+drwxr-xr-x   - Admin supergroup          0 2026-06-03 19:25 /data
+PS C:\Users\Admin> hdfs dfs -put E:\UEH\big-data\data\*.csv /data
+PS C:\Users\Admin> hdfs dfs -ls /data
+Found 13 items
+-rw-r--r--   1 Admin supergroup    7079679 2026-06-03 19:30 /data/customers.csv
+-rw-r--r--   1 Admin supergroup    1402281 2026-06-03 19:30 /data/geography.csv
+-rw-r--r--   1 Admin supergroup    5668678 2026-06-03 19:30 /data/inventory.csv
+-rw-r--r--   1 Admin supergroup   23942735 2026-06-03 19:30 /data/order_items.csv
+-rw-r--r--   1 Admin supergroup   45963232 2026-06-03 19:30 /data/orders.csv
+-rw-r--r--   1 Admin supergroup   18383288 2026-06-03 19:30 /data/payments.csv
+-rw-r--r--   1 Admin supergroup     195223 2026-06-03 19:30 /data/products.csv
+-rw-r--r--   1 Admin supergroup       4444 2026-06-03 19:30 /data/promotions.csv
+-rw-r--r--   1 Admin supergroup    2281456 2026-06-03 19:30 /data/returns.csv
+-rw-r--r--   1 Admin supergroup    6791414 2026-06-03 19:30 /data/reviews.csv
+-rw-r--r--   1 Admin supergroup     129634 2026-06-03 19:30 /data/sales.csv
+-rw-r--r--   1 Admin supergroup   19756082 2026-06-03 19:30 /data/shipments.csv
+-rw-r--r--   1 Admin supergroup     208722 2026-06-03 19:30 /data/web_traffic.csv
+PS C:\Users\Admin>
+
+
+
