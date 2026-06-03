@@ -1,0 +1,50 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Admin> Get-Date
+
+Wednesday, June 3, 2026 7:50:07 PM
+
+
+PS C:\Users\Admin> whoami
+desktop-gv15qau\admin
+PS C:\Users\Admin> pyspark
+Python 3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 4.1.1
+      /_/
+
+Using Python version 3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026 14:10:54)
+Spark context Web UI available at http://DESKTOP-GV15QAU.lan:4040
+Spark context available as 'sc' (master = local[*], app id = local-1780491025489).
+SparkSession available as 'spark'.
+>>> df = spark.read.csv(
+...     "hdfs://localhost:9000/data/customers.csv",
+...     header=True,
+...     inferSchema=True
+... )
+>>> df.show(5)
++-----------+-----+---------+-----------+------+---------+-------------------+
+|customer_id|  zip|     city|signup_date|gender|age_group|acquisition_channel|
++-----------+-----+---------+-----------+------+---------+-------------------+
+|          1|15201|Hai Phong| 2021-12-30|Female|    35-44|       social_media|
+|          2|15201|Hai Phong| 2013-12-27|Female|    45-54|     email_campaign|
+|          3|15201|Hai Phong| 2018-07-24|Female|    18-24|     organic_search|
+|          4|15201|Hai Phong| 2017-11-29|  Male|    35-44|           referral|
+|          5|15201|Hai Phong| 2022-09-23|  Male|      55+|     organic_search|
++-----------+-----+---------+-----------+------+---------+-------------------+
+only showing top 5 rows
+>>> df.write.mode("overwrite").csv(
+...     "hdfs://localhost:9000/output/customers"
+... )
+>>>
