@@ -1,0 +1,43 @@
+﻿region,city,total_customers,female_count
+East,Cam Pha,4398,2170
+East,Thai Nguyen,4347,2171
+East,Phu Ly,4243,2138
+East,Hanoi,4240,2100
+East,Ha Long,4236,2031
+East,Bac Ninh,4172,2017
+East,Hai Phong,4170,2029
+East,Nam Dinh,4169,2064
+East,Bac Giang,4160,2014
+East,Ninh Binh,4081,2011
+East,Son Tay,4075,2017
+East,Viet Tri,4054,1941
+East,Uong Bi,4026,1959
+Central,Dong Hoi,3912,1877
+Central,Kon Tum,3838,1794
+East,Lao Cai,3807,1811
+Central,Hoi An,3760,1833
+Central,Phan Thiet,3749,1848
+Central,Phan Rang-Thap Cham,3734,1845
+Central,Hue,3719,1819
+Central,Tuy Hoa,3674,1837
+Central,Da Nang,3616,1755
+Central,Quang Ngai,3616,1778
+Central,Tam Ky,3562,1772
+Central,Quy Nhon,3556,1744
+Central,Nha Trang,3550,1636
+West,Ho Chi Minh City,1359,683
+West,Vinh Long,1336,627
+West,Pleiku,1253,605
+West,Vung Tau,1251,610
+West,Da Lat,1243,607
+West,Can Tho,1214,587
+West,Bac Lieu,1211,599
+West,Ca Mau,1211,605
+West,Soc Trang,1208,604
+West,My Tho,1198,599
+West,Long Xuyen,1194,586
+West,Ben Tre,1179,599
+West,Bien Hoa,1173,588
+West,Buon Ma Thuot,1167,626
+West,Tra Vinh,1138,548
+West,Rach Gia,1131,556
