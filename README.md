@@ -134,6 +134,7 @@ Notebook tạo temp view cho 13 bảng dữ liệu và chạy các nhóm phân t
 - Payment intelligence.
 
 Kết quả CSV đã export nằm trong `sql_data_output/`, gồm `Q01` đến `Q18` trừ `Q13`.
+Kết quả chụp màn hình các câu truy cấn nằm trong `sql_code_result`, gồm `Q01` đến `Q18` trừ `Q13`.
 
 ## Chạy streaming Kafka -> HDFS
 
